@@ -27,7 +27,6 @@ export function reducer(state: State, action: Action): State {
 
         },
       };
-      case:"setSelectedEntit"
     default:
       throw new Error('Unhandled action type');
   }
