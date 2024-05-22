@@ -1,0 +1,32 @@
+.styles {
+  .unit {
+  position: absolute;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  transform: rotateX(-55deg) rotateZ(-45deg) scaleY(290%);
+  transform-style: preserve-3d;
+}
+
+.spearman {
+  background-image: url('spearman.png');
+  background-size: cover;
+}
+
+.health {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 4px;
+  background-color: red;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: green;
+}}
