@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --gridSizePx: 50px;
+}
+
+.isometric {
+    transform: rotateX(55deg) rotateZ(45deg);
+    -webkit-transform: rotateX(55deg) rotateZ(45deg); /* Para compatibilidad con navegadores WebKit */
+  }
